@@ -20,6 +20,7 @@ impl Wal {
     }
 
     pub fn write_entry(&mut self, entry: Entry) -> Result<()> {
-        unimplemented!()
+        // TODO: not implementaed
+        Ok(())
     }
 }
