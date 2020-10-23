@@ -1,7 +1,7 @@
+use crate::structs::Entry;
 use crate::Result;
 use std::fs::{File, OpenOptions};
 use std::path::PathBuf;
-use crate::structs::Entry;
 
 struct Header {
     key_len: usize,
